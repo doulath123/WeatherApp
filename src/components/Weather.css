@@ -1,0 +1,48 @@
+.city-search {
+    width: 200px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    outline: none;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  .city-search:focus {
+    width: 60%;
+    
+  }
+  .loading{
+    background-color: black;
+    font-size: 100px; 
+  }
+  .app-name{
+    color: rgb(77, 246, 94);
+  }
+  .app-name>span{
+    color: gray;
+  }
+  .weekdays{
+    justify-content: center;
+    display:flex;
+    margin: 50px;
+  }
+  .daybox{
+    border-radius: 25px;
+    margin: 0.5%;
+    background-color: white;
+   padding: 1%;
+  }
+  .mainbox{
+    background-color: white;
+    width: 30%;
+   margin: auto;
+   border-radius: 25px;
+   margin-top: 2%;
+  }
+ 
+  
